@@ -3,5 +3,5 @@ CMakeFiles
 CMakeCache.txt
 Makefile
 *.zip
-Test1
+bin
 *.so
