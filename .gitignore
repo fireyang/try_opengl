@@ -1,0 +1,7 @@
+cmake_install.cmake
+CMakeFiles
+CMakeCache.txt
+Makefile
+*.zip
+Test1
+*.so
