@@ -31,6 +31,8 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
 
 add_executable(Test1 "src/test1.cpp" ${GLAD})
 add_executable(hello_triangle "src/hello_triangle.cpp" ${GLAD})
+add_executable(shaders_interpolation "src/shaders_interpolation.cpp" ${GLAD})
+add_executable(shaders_class "include/shader_s.h" "src/shaders_class.cpp" ${GLAD})
 
 # file(GLOB_RECURSE source_files ${PROJECT_SOURCE_DIR}/src/*)
 # add_executable(${APP_TARGET} ${source_files})
